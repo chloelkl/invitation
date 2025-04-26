@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Playlist</title>
+  <link rel="stylesheet" href="styles/playlist.css" />
+  <script src="https://kit.fontawesome.com/5f7a82a0a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="playlist-header">
+    <img src="assets/playlist-cover.png" alt="Playlist Cover" />
+    <div class="playlist-info">
+      <h1>chloe's super cool laser tag birthday party</h1>
+      <p>put addre4ss here</p>
+      <p class="details">28 june · 3pm</p>
+      <a class="rsvp-btn" href="https://forms.gle/your-form-link" target="_blank">RSVP</a>
+      <div class="icons">
+        <i class="fa-solid fa-plus"></i>
+        <i class="fa-solid fa-download"></i>
+        <i class="fa-solid fa-ellipsis"></i>
+        <div class="right-icons">
+          <i class="fa-solid fa-shuffle"></i>
+          <button id="play-btn"><i class="fa-solid fa-play"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="guest-list" id="guest-list">
+    <!-- Guests will be added by JavaScript -->
+  </div>
+  <div class="bottom-nav">
+    <span id="selected"><i class="fa-solid fa-house"></i><br>Home</span>
+    <span><i class="fa-solid fa-magnifying-glass"></i><br>Search</span>
+    <span><i class="fa-regular fa-map"></i><br>Your Library</span>
+    <span><i class="fa-solid fa-plus"></i><br>Create</span>
+  </div>
+  <script src="scripts/playlist.js"></script>
+</body>
+</html>
