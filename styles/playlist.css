@@ -44,24 +44,25 @@ body {
   width: 100%;
   background-color: #c43232;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  padding: 2rem 0 1.5rem;
+  padding: 2rem 0 1.3rem;
   opacity: 0;
   transition: opacity 0.3s;
   z-index: 999;
 }
 
 .playlist-info h1 {
-  margin: 20px 0;
-  font-size: 1.5rem;
+  margin: 15px 0;
+  font-size: 1.3rem;
 }
 
 .playlist-info p {
   margin: 0.4rem 0;
   font-weight: 100;
   color: #ccc;
+  font-size: 0.8rem;
 }
 
 .details {
@@ -115,7 +116,7 @@ body {
 .guest {
   display: flex;
   align-items: center;
-  padding: 1rem 0;
+  padding: .5rem 0;
   cursor: pointer;
   transition: background-color 0.2s;
 }
@@ -129,8 +130,8 @@ body {
 }
 
 .guest-img {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   object-fit: cover;
   border-radius: 4px;
   margin-right: 1rem;
@@ -143,13 +144,13 @@ body {
 }
 
 .guest-name {
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: #fff;
   margin-bottom: .15rem;
 }
 
 .guest-team {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #b3b3b3;
   margin-top: .15rem;
 }

@@ -56,9 +56,8 @@ function stopAudio() {
 }
 
 function playGuest(guest, guestEl) {
-  stopAudio();
-
   const audio = new Audio(`audio/${guest.name}.m4a`);
+  stopAudio();
   currentAudio = audio;
   currentActive = guestEl;
 
