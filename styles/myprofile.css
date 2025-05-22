@@ -8,7 +8,7 @@ body {
 
 .profile-header {
   background: linear-gradient(to bottom, #ff3c3c, #101010);
-  padding: 2rem 2rem 2rem;
+  padding: 3rem 1rem 2rem;
   text-align: left;
 }
 
@@ -20,8 +20,13 @@ body {
 
 .username {
   margin: auto 0;
-  h2, p {
+  width: 65%;
+  h2 {
     margin: 0.2rem auto;
+  }
+  p {
+    margin: 0.2rem auto;
+    font-size: 0.8rem
   }
   span {
     color: rgb(200, 200, 200);
@@ -30,8 +35,8 @@ body {
 }
 
 .profile-pic {
-  width: 120px;
-  height: 120px;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -49,8 +54,12 @@ body {
   margin-left: 0;
 }
 
-.playlist-section, .artist-section {
+.playlist-section {
   padding: 0 1rem 1rem;
+}
+
+.artist-section {
+  padding: 0 1rem 5rem;
 }
 
 .playlist {
@@ -73,29 +82,29 @@ body {
   color: white;
   margin-top: 1rem;
   img {
-    width: 60px;
-    height: 60px;
+    width: 3rem;
+    height: 3rem;
     object-fit: cover;
     border-radius: 50%;
   }
 }
 
 .playlist img {
-  width: 70px;
-  height: 70px;
+  width: 3rem;
+  height: 3rem;
   object-fit: cover;
 }
 
 .playlist-info h3, .artist h3 {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight:100;
 }
 
 .playlist-info p, .artist p {
   margin: 0.25rem 0 0;
   color: #aaa;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 100;
 }
 
