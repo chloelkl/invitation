@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Playlist</title>
   <link rel="stylesheet" href="styles/playlist.css" />
   <script src="https://kit.fontawesome.com/5f7a82a0a1.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+  <a href="myprofile.html" class="back-arrow">
+    <i class="fa-solid fa-chevron-left"></i>
+  </a>
   <div class="playlist-header">
     <img src="assets/playlist-cover.png" alt="Playlist Cover" />
     <div class="playlist-info">
-      <h1>chloe's super cool laser tag birthday party</h1>
-      <p>put addre4ss here</p>
-      <p class="details">28 june · 3pm</p>
-      <a class="rsvp-btn" href="https://forms.gle/your-form-link" target="_blank">RSVP</a>
+      <h1 id="playlist-title">chloe's super cool laser tag birthday party</h1>
+      <p>
+        2 Bukit Batok West Ave 7
+        Singapore 659003 <br>
+        HomeTeamNS Bukit Batok <br><br>
+        alcohol is not allowed inside HomeTeamNS <br>
+        wear dark-themed clothes & covered shoes <br>
+        (note from tyler: dont get stuffed toys)
+      </p>
+      <p class="details">29 june, sunday · 3pm</p>
       <div class="icons">
-        <i class="fa-solid fa-plus"></i>
-        <i class="fa-solid fa-download"></i>
-        <i class="fa-solid fa-ellipsis"></i>
+        <a class="rsvp-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdZhZ1uK-s0g-6IAgefsr7i9SQSl_PI5Tt_QRSrlN0qHoklPg/viewform?usp=header" target="_blank">RSVP</a>
+        <i class="fa-solid fa-plus" style="color:rgb(235, 235, 235)"></i>
+        <i class="fa-solid fa-download" style="color:rgb(235, 235, 235)"></i>
+        <i class="fa-solid fa-ellipsis" style="color:rgb(235, 235, 235)"></i>
         <div class="right-icons">
-          <i class="fa-solid fa-shuffle"></i>
-          <button id="play-btn"><i class="fa-solid fa-play"></i></button>
+          <i class="fa-solid fa-shuffle" style="color:rgb(235, 235, 235)"></i>
+          <button id="play-btn"><i class="fa-solid fa-play" style="color: black;"></i></button>
         </div>
       </div>
     </div>
   </div>
 
+  <div class="sticky-title" id="sticky-title">chloe's super cool laser tag...</div>
+
   <div class="guest-list" id="guest-list">
-    <!-- Guests will be added by JavaScript -->
   </div>
   <div class="bottom-nav">
     <span id="selected"><i class="fa-solid fa-house"></i><br>Home</span>
@@ -38,4 +51,5 @@
   </div>
   <script src="scripts/playlist.js"></script>
 </body>
+
 </html>
