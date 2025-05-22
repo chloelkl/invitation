@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playlist</title>
+  <link rel="stylesheet" href="styles/playlist.css" />
+  <script src="https://kit.fontawesome.com/5f7a82a0a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <a href="myprofile.html" class="back-arrow">
+    <i class="fa-solid fa-chevron-left"></i>
+  </a>
+  <div class="playlist-header">
+    <img src="assets/playlist-cover.png" alt="Playlist Cover" />
+    <div class="playlist-info">
+      <h1 id="playlist-title">chloe's super cool laser tag birthday party</h1>
+      <p>
+        2 Bukit Batok West Ave 7
+        Singapore 659003 <br>
+        HomeTeamNS Bukit Batok <br><br>
+        alcohol is not allowed inside HomeTeamNS <br>
+        wear dark-themed clothes & covered shoes <br>
+        (note from tyler: dont get stuffed toys)
+      </p>
+      <p class="details">29 june, sunday · 3pm</p>
+      <div class="icons">
+        <a class="rsvp-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdZhZ1uK-s0g-6IAgefsr7i9SQSl_PI5Tt_QRSrlN0qHoklPg/viewform?usp=header" target="_blank">RSVP</a>
+        <i class="fa-solid fa-plus" style="color:rgb(235, 235, 235)"></i>
+        <i class="fa-solid fa-download" style="color:rgb(235, 235, 235)"></i>
+        <i class="fa-solid fa-ellipsis" style="color:rgb(235, 235, 235)"></i>
+        <div class="right-icons">
+          <i class="fa-solid fa-shuffle" style="color:rgb(235, 235, 235)"></i>
+          <button id="play-btn"><i class="fa-solid fa-play" style="color: black;"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sticky-title" id="sticky-title">chloe's super cool laser tag...</div>
+
+  <div class="guest-list" id="guest-list">
+  </div>
+  <div class="bottom-nav">
+    <span id="selected"><i class="fa-solid fa-house"></i><br>Home</span>
+    <span><i class="fa-solid fa-magnifying-glass"></i><br>Search</span>
+    <span><i class="fa-regular fa-map"></i><br>Your Library</span>
+    <span><i class="fa-solid fa-plus"></i><br>Create</span>
+  </div>
+  <script src="scripts/playlist.js"></script>
+</body>
+
+</html>
